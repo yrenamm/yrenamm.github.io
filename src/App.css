@@ -1,0 +1,97 @@
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header textarea {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  border: 2px solid #ED7D31;
+  border-radius: 5px;
+  resize: none;
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  color: #288A94; 
+  text-align: center;
+}
+
+.header textarea::selection { 
+  background-color: #00FF00; 
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #FFE699;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-link {
+  color: #3C75D0;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Main Styles */
+.main-panel {
+  border: 1px solid black;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.panel-image {
+  margin-bottom: 1rem;
+  width: 150px;
+  height: 150px;
+}
+
+.data-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #d28152;
+  padding: 0.5rem;
+  text-align: left;
+  color: black;
+}
+
+.data-table thead {
+  background-color: #d28152;
+  color: white;
+}
+
+/*  Footer Styles */
+.footer {
+  text-align: center;
+  font-size: 18px;
+  border-top: 2px solid #22B14C;
+  padding: 10px 0;
+  color: #0772C0;
+
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  
+}
